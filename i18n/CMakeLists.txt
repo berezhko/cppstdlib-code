@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 add_definitions(-std=c++11)
+set(CMAKE_CXX_FLAGS " -lrt -lm")
 add_executable(i18n-germanbool germanbool.cpp)
 add_executable(i18n-loc1 loc1.cpp)
 add_executable(i18n-loc2 loc2.cpp)

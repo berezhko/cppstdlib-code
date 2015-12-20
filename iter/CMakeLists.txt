@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 add_definitions(-std=c++11)
+set(CMAKE_CXX_FLAGS " -lrt -lm")
 add_executable(iter-advance1 advance1.cpp)
 add_executable(iter-advance2 advance2.cpp)
 add_executable(iter-assoiter1 assoiter1.cpp)

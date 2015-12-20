@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 add_definitions(-std=c++11)
+set(CMAKE_CXX_FLAGS " -lrt -lm")
 add_executable(regex-regex1 regex1.cpp)
 add_executable(regex-regex2 regex2.cpp)
 add_executable(regex-regex3 regex3.cpp)

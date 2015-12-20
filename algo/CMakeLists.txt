@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 add_definitions(-std=c++11)
+set(CMAKE_CXX_FLAGS " -lrt -lm")
 add_executable(algo-accumulate1 accumulate1.cpp)
 add_executable(algo-adjacentdiff1 adjacentdiff1.cpp)
 add_executable(algo-adjacentfind1 adjacentfind1.cpp)

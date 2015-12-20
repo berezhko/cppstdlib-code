@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 add_definitions(-std=c++11)
+set(CMAKE_CXX_FLAGS " -lrt -lm")
 add_executable(string-icstring1 icstring1.cpp)
 add_executable(string-string1 string1.cpp)
 add_executable(string-string2 string2.cpp)

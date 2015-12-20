@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 add_definitions(-std=c++11)
+set(CMAKE_CXX_FLAGS " -lrt -lm")
 add_executable(cont-array1 array1.cpp)
 add_executable(cont-cstylearray1 cstylearray1.cpp)
 add_executable(cont-cstylearray1old cstylearray1old.cpp)

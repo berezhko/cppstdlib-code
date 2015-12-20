@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 add_definitions(-std=c++11)
+set(CMAKE_CXX_FLAGS " -lrt -lm")
 add_executable(concurrency-async1 async1.cpp)
 add_executable(concurrency-async2 async2.cpp)
 add_executable(concurrency-async3 async3.cpp)

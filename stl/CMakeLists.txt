@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 add_definitions(-std=c++11)
+set(CMAKE_CXX_FLAGS " -lrt -lm")
 add_executable(stl-add1 add1.cpp)
 add_executable(stl-algo1 algo1.cpp)
 add_executable(stl-algo1old algo1old.cpp)

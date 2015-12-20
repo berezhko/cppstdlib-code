@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 add_definitions(-std=c++11)
+set(CMAKE_CXX_FLAGS " -lrt -lm")
 add_executable(fo-bind1 bind1.cpp)
 add_executable(fo-bind2 bind2.cpp)
 add_executable(fo-compose3 compose3.cpp)

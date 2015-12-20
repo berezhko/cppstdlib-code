@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 add_definitions(-std=c++11)
+set(CMAKE_CXX_FLAGS " -lrt -lm")
 add_executable(util-chrono1 chrono1.cpp)
 add_executable(util-chrono2 chrono2.cpp)
 add_executable(util-clock1 clock1.cpp)

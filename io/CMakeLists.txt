@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 add_definitions(-std=c++11)
+set(CMAKE_CXX_FLAGS " -lrt -lm")
 add_executable(io-cat1 cat1.cpp)
 add_executable(io-cat2 cat2.cpp)
 add_executable(io-charcat1 charcat1.cpp)
